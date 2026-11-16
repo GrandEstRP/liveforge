@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LiveForge - TikTok LIVE Studio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b15;
+      color: white;
+    }
+    header {
+      padding: 24px 8%;
+      background: #141422;
+      border-bottom: 1px solid #303044;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #a78bfa;
+    }
+    nav a, footer a {
+      color: #d6ccff;
+      text-decoration: none;
+      margin: 8px;
+    }
+    main {
+      text-align: center;
+      padding: 100px 20px;
+    }
+    h1 {
+      font-size: clamp(36px, 6vw, 60px);
+      margin-bottom: 20px;
+    }
+    h1 span { color: #a78bfa; }
+    p {
+      color: #b7b7ca;
+      line-height: 1.8;
+      max-width: 650px;
+      margin: 20px auto;
+    }
+    .button {
+      display: inline-block;
+      background: #7c3aed;
+      padding: 15px 28px;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px 20px 80px;
+    }
+    .card {
+      background: #191929;
+      border: 1px solid #33334a;
+      padding: 25px;
+      border-radius: 14px;
+      width: 260px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #303044;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">⚡ LiveForge</div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="privacy.html">Confidentialité</a>
+      <a href="terms.html">Conditions</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Bienvenue sur <span>LiveForge</span></h1>
+    <p>
+      LiveForge est un projet d'application Windows
+      permettant de personnaliser les interactions
+      pendant les lives TikTok.
+    </p>
+    <p>
+      Créez des automatisations, configurez des webhooks,
+      associez des effets sonores aux cadeaux et gérez
+      vos scènes depuis une interface personnalisée.
+    </p>
+    <a class="button" href="#fonctionnalites">
+      Découvrir LiveForge
+    </a>
+  </main>
+
+  <section class="features" id="fonctionnalites">
+    <div class="card">
+      <h3>🎁 Cadeaux TikTok</h3>
+      <p>Automatisations et réactions personnalisées.</p>
+    </div>
+    <div class="card">
+      <h3>🔗 Webhooks</h3>
+      <p>Déclenchez des actions externes.</p>
+    </div>
+    <div class="card">
+      <h3>🔊 Sons</h3>
+      <p>Ajoutez vos effets sonores préférés.</p>
+    </div>
+    <div class="card">
+      <h3>🎮 Scènes</h3>
+      <p>Organisez vos règles selon vos lives.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 LiveForge - Projet en développement</p>
+    <a href="privacy.html">Confidentialité</a>
+    <a href="terms.html">Conditions d'utilisation</a>
+  </footer>
+</body>
+</html>
